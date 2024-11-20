@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-// This is a test change to trigger the CI workflow
+// This is a test change to trigger the CI workflow.
 
 namespace BlazorLabStarterCodeTests
 {
