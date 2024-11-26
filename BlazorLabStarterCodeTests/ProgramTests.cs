@@ -30,6 +30,8 @@ namespace BlazorLabStarterCodeTests
             Assert.AreEqual("User1", Blazor_Lab_Starter_Code.Program.users[0].Name);
         }
 
+
+
         [TestMethod]
         public void BorrowBook_ValidBorrow_Success()
         {
@@ -41,8 +43,7 @@ namespace BlazorLabStarterCodeTests
 
             Blazor_Lab_Starter_Code.Program.BorrowBook();
 
-            // Deliberately causing the test to fail:
-            Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.books.Count, "Deliberate failure to test CI/CD workflow"); // This assertion will fail
+            Assert.AreEqual(0, Blazor_Lab_Starter_Code.Program.books.Count);
             Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.borrowedBooks[Blazor_Lab_Starter_Code.Program.users[0]].Count);
         }
     }
