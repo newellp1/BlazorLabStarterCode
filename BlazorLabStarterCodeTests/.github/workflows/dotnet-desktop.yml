@@ -1,0 +1,36 @@
+name: .NET CI for Blazor Lab Starter Code
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+    # Step 1: Check out the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Step 2: Set up .NET SDK
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x  # Use your project's .NET version
+
+    # Step 3: Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # Step 4: Build the solution
+    - name: Build solution
+      run: dotnet build --no-restore --configuration Release
+
+    # Step 5: Run unit tests
+    - name: Run unit tests
+      run: dotnet test --no-build --configuration Release --verbosity normal
