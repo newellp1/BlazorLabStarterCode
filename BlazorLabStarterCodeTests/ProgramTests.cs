@@ -22,18 +22,13 @@ namespace BlazorLabStarterCodeTests
         [TestMethod]
         public void AddUser_ValidInput_UserAdded()
         {
-            // Arrange
             var input = new StringReader("User1\nuser1@example.com\n");
             Console.SetIn(input);
-
-            // Act
             Blazor_Lab_Starter_Code.Program.AddUser();
 
-            // Assert (Deliberate failure: expected value is incorrect)
-            Assert.AreEqual(2, Blazor_Lab_Starter_Code.Program.users.Count); // Changed from the correct value
-            Assert.AreEqual("WrongName", Blazor_Lab_Starter_Code.Program.users[0].Name); // This will also fail
+            Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.users.Count);
+            Assert.AreEqual("User1", Blazor_Lab_Starter_Code.Program.users[0].Name);
         }
-
 
         [TestMethod]
         public void BorrowBook_ValidBorrow_Success()
@@ -46,7 +41,8 @@ namespace BlazorLabStarterCodeTests
 
             Blazor_Lab_Starter_Code.Program.BorrowBook();
 
-            Assert.AreEqual(0, Blazor_Lab_Starter_Code.Program.books.Count);
+            // Deliberately causing the test to fail:
+            Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.books.Count, "Deliberate failure to test CI/CD workflow"); // This assertion will fail
             Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.borrowedBooks[Blazor_Lab_Starter_Code.Program.users[0]].Count);
         }
     }
