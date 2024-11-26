@@ -22,17 +22,18 @@ namespace BlazorLabStarterCodeTests
         [TestMethod]
         public void AddUser_ValidInput_UserAdded()
         {
+            // Arrange
             var input = new StringReader("User1\nuser1@example.com\n");
             Console.SetIn(input);
+
+            // Act
             Blazor_Lab_Starter_Code.Program.AddUser();
 
-            // Deliberate failure: Assert that the users list is empty (this is incorrect)
-            Assert.AreEqual(0, Blazor_Lab_Starter_Code.Program.users.Count);
-
-            // Original assertions (commented out for the deliberate failure):
-            // Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.users.Count);
-            // Assert.AreEqual("User1", Blazor_Lab_Starter_Code.Program.users[0].Name);
+            // Assert (Deliberate failure: expected value is incorrect)
+            Assert.AreEqual(2, Blazor_Lab_Starter_Code.Program.users.Count); // Changed from the correct value
+            Assert.AreEqual("WrongName", Blazor_Lab_Starter_Code.Program.users[0].Name); // This will also fail
         }
+
 
         [TestMethod]
         public void BorrowBook_ValidBorrow_Success()
