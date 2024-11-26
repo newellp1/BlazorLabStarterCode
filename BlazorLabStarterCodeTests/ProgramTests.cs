@@ -26,8 +26,12 @@ namespace BlazorLabStarterCodeTests
             Console.SetIn(input);
             Blazor_Lab_Starter_Code.Program.AddUser();
 
-            Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.users.Count);
-            Assert.AreEqual("User1", Blazor_Lab_Starter_Code.Program.users[0].Name);
+            // Deliberate failure: Assert that the users list is empty (this is incorrect)
+            Assert.AreEqual(0, Blazor_Lab_Starter_Code.Program.users.Count);
+
+            // Original assertions (commented out for the deliberate failure):
+            // Assert.AreEqual(1, Blazor_Lab_Starter_Code.Program.users.Count);
+            // Assert.AreEqual("User1", Blazor_Lab_Starter_Code.Program.users[0].Name);
         }
 
         [TestMethod]
