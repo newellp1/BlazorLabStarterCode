@@ -1,0 +1,17 @@
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Blazor Lab Starter Code.exe
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Data\Books.csv
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Data\Users.csv
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Blazor Lab Starter Code.deps.json
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Blazor Lab Starter Code.runtimeconfig.json
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Blazor Lab Starter Code.dll
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\bin\Debug\net8.0\Blazor Lab Starter Code.pdb
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.AssemblyInfoInputs.cache
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.AssemblyInfo.cs
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.csproj.CoreCompileInputs.cache
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.sourcelink.json
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.dll
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\refint\Blazor Lab Starter Code.dll
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.pdb
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\Blazor Lab Starter Code.genruntimeconfig.cache
+C:\Users\pcnew\OneDrive\Desktop\ETSU\CSCI-2910-001\Labs\Lab6\Blazor Lab Starter Code\obj\Debug\net8.0\ref\Blazor Lab Starter Code.dll
